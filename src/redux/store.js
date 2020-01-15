@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware } from "redux";
 import { persistStore } from "redux-persist";
 // MIDDLEWARE
-// middleware = fucntions that catch actions and updates the reducer
+// middleware = functions that catch actions and updates the reducer
 // logger = catches the actions and logs the action
 import logger from "redux-logger";
 import rootReducer from "./root-reducer";
