@@ -36,7 +36,7 @@ class App extends Component {
     });
   }
 
-  // closes the subscription
+  // closes the subscription(stops listening to the event)
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
